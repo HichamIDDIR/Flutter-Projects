@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/components/my_button.dart';
 
-// ignore: must_be_immutable
+// ignore: must_be_immutable, camel_case_types
 class dialog_box extends StatelessWidget {
   final TextEditingController controller;
   final VoidCallback onSave;
   final VoidCallback onCancel;
 
-  dialog_box({
+  const dialog_box({
     super.key,
     required this.controller,
     required this.onSave,

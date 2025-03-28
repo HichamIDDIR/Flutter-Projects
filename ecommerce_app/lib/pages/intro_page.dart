@@ -50,6 +50,10 @@ class IntroPage extends StatelessWidget {
                     ),
                 child: Container(
                   padding: EdgeInsets.all(23),
+                  decoration: BoxDecoration(
+                    color: Colors.grey[900],
+                    borderRadius: BorderRadius.circular(20.0),
+                  ),
                   child: Center(
                     child: Text(
                       "Shop now",
@@ -59,10 +63,6 @@ class IntroPage extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                  ),
-                  decoration: BoxDecoration(
-                    color: Colors.grey[900],
-                    borderRadius: BorderRadius.circular(20.0),
                   ),
                 ),
               ),

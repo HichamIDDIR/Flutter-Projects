@@ -62,7 +62,6 @@ class SaleTile extends StatelessWidget {
                   onTap: onTap,
                   child: Container(
                     padding: EdgeInsets.all(20),
-                    child: Icon(Icons.add, color: Colors.white),
                     decoration: BoxDecoration(
                       color: Colors.black,
                       borderRadius: BorderRadius.only(
@@ -70,6 +69,7 @@ class SaleTile extends StatelessWidget {
                         bottomRight: Radius.circular(12),
                       ),
                     ),
+                    child: Icon(Icons.add, color: Colors.white),
                   ),
                 ),
               ],
